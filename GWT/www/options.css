@@ -1,0 +1,159 @@
+a:link {color: #002bb8; text-decoration: none}
+a:visited {color: #5a3696; text-decoration: none}
+a:hover {color: #5a3696; text-decoration: underline}
+a:active {color: #5a3696}
+
+/* http://htmlcoder.visions.ru/CSS/?22 */
+HTML,BODY{
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow: auto;
+scrollbar-face-color: #FFFFFF;
+scrollbar-highlight-color: #000000;
+scrollbar-darkshadow-color: #000000;
+scrollbar-3Dlight-color: #000000;
+scrollbar-arrow-color: #000000;
+scrollbar-track-color: #FFFFFF}
+
+/* Отключение баннера */
+.b13 {display: none;}
+
+.a_base{
+height: 98%; border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; padding: 5px; overflow: auto}
+.a_base_black{
+height: 98%; border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; padding: 5px; overflow: auto; background-color: #000000; color: #FFFFFF}
+/* Описание блока "Пример" */
+.a_example{
+width: 95%; border: 2px; border-color: #000000; border-style: dashed; background: #FFFFE1; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; text-align: justify; vertical-align: top; display: table; padding: 5px}
+/* Описание блока "Код" */
+.a_code{
+width: 95%; border: 1px; border-color: #000000; border-style: dotted; background: #DDDDDD; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: justify; vertical-align: top; display: table; padding: 5px}
+/* Описание блока "Фрейм" */
+.a_frame{
+width: 100%; border: none; height: 100%; text-align: left; vertical-align: top}
+/* Описание шапки основной страницы */
+.a_head{
+border: none; width: 100%;}
+/* Описание блока "Содержимое" (тело страницы) */
+.a_content{
+border: none; width: 100%; height: 85%; overflow: auto}
+/* Описание блока отображаемого под вертикальным меню изображения */
+.a_image{
+width: 250.0px; height: 250.0px; border: 1px; border-color: #000000; border-style: solid; height: 250.0px; text-align: center; vertical-align: middle}
+/* Описание линии, содержащей горизонтальное меню */
+.a_line{
+width: 100%; border: none; height: 20.0px; color: #FFFFFF; background-color: #000000; vertical-align: middle; display: table; font-family: Arial; font-size: 12.0px; font-weight: bold;}
+
+/* Описание поведения кнопок горизонтального меню */
+.a_menu_horizontal_button_out{
+width: 100.0px; height: 18.0px; color: #FFFFFF; background-color: #000000; border: 1px solid #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 10.0px; font-weight: bold; text-align: center; vertical-align: middle; display: table; float: right; margin-right: 2.0px}
+.a_menu_horizontal_button_over{
+width: 100.0px; height: 18.0px; color: #000000; background-color: #FFFFFF; border: 1px solid #000000; font-family: Verdana, Arial, sans-serif; font-size: 10.0px; font-weight: bold; text-align: center; vertical-align: middle; display: table; float: right; margin-right: 2.0px}
+
+/* Описание элементов вертикального меню */
+.a_menu_vertical{
+width: 250.0px; height: 100.0px; border: 1px solid #000000; font-family: Arial; font-size: 12.0px}
+/* Вернуть вместо закрывающей скобки строкой вверх ; cursor: url('/Images/moonfairy.ani')} */
+.a_menu_vertical_button_out{
+width: 250.0px; color: #000000; background-color: #FFFFFF; border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; vertical-align: middle; display: table}
+.a_menu_vertical_button_over{
+width: 250.0px; color: #000000; background-color: #CCCCCC; border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; vertical-align: middle; display: table}
+
+/* Описание шаблона таблиц, использующегося на страницах, отображаемых во фрейме */
+.a_table{
+border: none; text-align: center; vertical-align: middle; width: 65%}
+.a_table_cell_center{
+border: none; color: #000000; background-color: #CCCCCC; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: center; vertical-align: middle}
+.a_table_cell_left{
+border: none; color: #000000; background-color: #CCCCCC; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_cell_title{
+border: none; color: #000000; background-color: #CCCCCC; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; font-weight: bold; text-align: center; vertical-align: middle}
+
+/* Описание шаблона широких таблиц, использующегося на страницах, отображаемых во фрейме */
+.a_table_long{
+border: none; text-align: center; vertical-align: middle; width: 100%}
+
+/* Описание шаблона таблицы параметров заклинания Волшебника */
+.a_table_spell_wizard{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_wizard_cell_left{
+border: none; color: #FFFFFF; background-color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_wizard_cell_title{
+color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров заклинания Колдуна */
+.a_table_spell_sorcerer{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_sorcerer_cell_left{
+border: none; color: #FFFFFF; background-color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_sorcerer_cell_title{
+color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров заклинания Заклинателя Воды */
+.a_table_spell_water{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_water_cell_left{
+border: none; color: #FFFFFF; background-color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_water_cell_title{
+color: #000044; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров заклинания Заклинателя Воздуха */
+.a_table_spell_air{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_air_cell_left{
+border: none; color: #0000AA; background-color: #CCCCCC; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_air_cell_title{
+color: #BBBBBB; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров заклинания Заклинателя Огня */
+.a_table_spell_fire{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_fire_cell_left{
+border: none; color: #000000; background-color: #FF2400; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_fire_cell_title{
+color: #800000; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров заклинания Жреца Спасителя */
+.a_table_spell_cleric{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_spell_cleric_cell_left{
+border: none; color: #FFD700; background-color: #AAAAAA; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_spell_cleric_cell_title{
+color: #D4AF37; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона таблицы параметров алхимических снадобий */
+.a_table_alchemy{
+border: none; font-family: Verdana, Arial, sans-serif; font-size: 12.0px;}
+.a_table_alchemy_cell_left{
+border: none; color: #FFFFFF; background-color: #962396; font-family: Verdana, Arial, sans-serif; font-size: 12.0px; text-align: left; vertical-align: middle}
+.a_table_alchemy_cell_title{
+color: #962396; font-family: Verdana, Arial, sans-serif; font-size: 14.0px; font-weight: bold; letter-spacing: -1px; text-align: center; vertical-align: middle}
+
+/* Описание шаблона заголовка страницы, использующегося на страницах, отображаемых во фрейме */
+.header_page{
+font-family: Verdana, Arial, sans-serif; font-size: 26.0px; font-weight: bold; text-align: center; margin: 0}
+
+/* Описание шаблона заголовка раздела, использующегося на страницах, отображаемых во фрейме */
+.header_section{
+font-family: Verdana, Arial, sans-serif; font-size: 18.0px; font-weight: bold; text-align: center; margin: 0}
+
+/* Описание шаблона заголовка подраздела, использующегося на страницах, отображаемых во фрейме */
+.header_subsection{
+font-family: Verdana, Arial, sans-serif; font-size: 16.0px; font-weight: bold; text-align: left; margin: 0}
+
+/* Описание шаблона эпиграфа, использующегося на страницах, отображаемых во фрейме */
+.epigraph{
+font-family: Verdana, Arial, sans-serif; font-size: 12.0px; font-style: italic; text-align: right}
+
+/*Описание шаблона абзаца с отступом первой строки, использующегося на страницах, отображаемых во фрейме */
+.p_space{
+font-family: Verdana, Arial, sans-serif; font-size: 14.0px; text-align: justify; margin: 0; text-indent: 35.0px}
+
+/*Описание шаблона абзаца без отступа первой строки, использующегося на страницах, отображаемых во фрейме */
+.p_normal{
+font-family: Verdana, Arial, sans-serif; font-size: 14.0px; text-align: justify; margin: 0}
+
+/* Описание шаблона блока изображений */
+.a_block_right{
+background: #FFFFE1; padding: 5px; border: solid 1px black; float: right; clear: right; margin: 0 0 10 10}

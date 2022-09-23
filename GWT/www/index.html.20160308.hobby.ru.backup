@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+	<link rel="StyleSheet" type="text/css" href="options.css">
+	<style type="Text/CSS">
+		a:link {color: #000000; text-decoration: none}
+		a:visited {color: #000000; text-decoration: none}
+		a:hover {color: #AAAAAA; text-decoration: none}
+		a:active {color: #AAAAAA}
+	</style>
+	<title>.: Орден Сов :.</title>
+
+<script type="text/JavaScript">
+<!-- Описание функции генерации случайного числа -->
+function RandomNumber()
+{
+	var today = new Date();
+	var num= Math.abs(Math.sin(today.getTime()/1000));
+	return num;
+}
+
+<!-- Описание функции выбора файла изображения -->
+function RandomGraphics()
+{
+	var x = RandomNumber();
+
+	if (x > .77)
+	{document.write("<a href='1211.htm' target='xFrame'><img border='0' alt='Heroes of Might and Magic 2. Рыцарь и паладин. Варианты развития бойца' src='Images/001.png'></a>"); return;
+	}
+	if (x > .66)
+	{document.write("<a href='2600.htm' target='xFrame'><img border='0' alt='Кольцо Нибелунгов. Мегические предметы, артефакты' src='Images/002.png'></a>"); return;
+	}
+	if (x > .55)
+	{document.write("<a href='2300.htm' target='xFrame'><img border='0' alt='Fairy. Феи. Расы и народы' src='Images/003.png'></a>"); return;
+	}
+	if (x > .44)
+	{document.write("<a href='#' target='xFrame'><img border='0' src='Images/004.jpg'></a>"); return;
+	}
+	if (x > .33)
+	{document.write("<a href='#' target='xFrame'><img border='0' src='Images/005.jpg'></a>"); return;
+	}
+	if (x > .22)
+	{document.write("<a href='#' target='xFrame'><img border='0' src='Images/006.jpg'></a>"); return;
+	}
+	if (x > .11)
+	{document.write("<a href='#' target='xFrame'><img border='0' src='Images/007.jpg'></a>"); return;
+	}
+	if (x > 0)
+	{document.write("<a href='#' target='xFrame'><img border='0' alt='Diablo 2. Портал' src='Images/008.gif'></a>"); return;
+	}
+}
+
+<!-- Описание функции элементов меню -->
+function show(obj) {
+	if (document.getElementById(obj).style.display == 'none')
+		document.getElementById(obj).style.display = 'block';
+	else
+		document.getElementById(obj).style.display = 'none';
+}
+</script>
+
+</HEAD>
+
+<BODY BGColor="#FFFFFF">
+<Center>
+	<table border="0" cellspacing="0" cellpadding="0" width=100%>
+		<tr>
+			<td><img align="left" border="0" src="Images/Logo.gif" alt='' width="250" height="100" style="filter:alpha(opacity=100)" OnMouseOver="nereidFade(this,0,50,5)" OnMouseOut="nereidFade(this,100,100,5)"></td>
+			<td><img align="right" border="0" src="Images/Head.gif" alt='' width="450" height="100"></td>
+		</tr>
+	</table>
+
+	<table border="0" cellspacing="2" cellpadding="0" class="a_content">
+		<tr>
+			<td valign="top" align="left" class="a_menu_vertical">
+				<div class="a_line">Настольная RPG</div>
+				<span><p style="margin: 0"><IMG src='Images/l1a1.gif' width=16 height=15 alt='' onClick="show('x1000')">&nbsp;<a href="1000.html" target="xFrame">Игровая система СВОД</a></p>
+					<span id="x1000" style="display: none">
+						<p style="margin: 0"><IMG src='Images/l2a1.gif' width=22 height=15 alt='' onClick="show('x1100')">&nbsp;<a href="1100.html" target="xFrame">Создание персонажа</a></p>
+						<span id="x1100" style="display: none">
+							<p style="margin: 0"><IMG src='Images/l3l1.gif' width=25 height=15 alt=''>&nbsp;<a href="1110.html" target="xFrame">Лист персонажа</a></p>
+							<p style="margin: 0"><IMG src='Images/l3l1.gif' width=25 height=15 alt=''>&nbsp;<a href="1120.html" target="xFrame">Определение показателей</a></p>
+							<p style="margin: 0"><IMG src='Images/l3l1.gif' width=25 height=15 alt=''>&nbsp;<a href="1130.html" target="xFrame">Доступные расы</a></p>
+							<p style="margin: 0"><IMG src='Images/l3a1.gif' width=28 height=15 alt='' onClick="show('x1140')">&nbsp;<a href="1140.html" target="xFrame">Показатели</a></p>
+							<span id="x1140" style="display: none">
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1141.html" target="xFrame">Сила</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1142.html" target="xFrame">Ловкость</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1143.html" target="xFrame">Здоровье</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1144.html" target="xFrame">Интеллект</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1145.html" target="xFrame">Мудрость</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l2.gif' width=31 height=15 alt=''>&nbsp;<a href="1146.html" target="xFrame">Харизма</a></p>
+							</span>
+						</span>
+						<p style="margin: 0"><IMG src='Images/l2a2.gif' width=22 height=15 alt='' onClick="show('x1200')">&nbsp;<a href="1200.html" target="xFrame">Архетипы</a></p>
+						<span id="x1200" style="display: none">
+							<p style="margin: 0"><IMG src='Images/l3a1.gif' width=28 height=15 alt='' onClick="show('x1210')">&nbsp;<a href='1210.htm' target="xFrame">Воин</a></p>
+							<span id="x1210" style="display: none">
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1211.htm" target="xFrame">Боец</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1212.htm" target="xFrame">Рейнджер</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1213.htm" target="xFrame">Берсерк</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1214.htm" target="xFrame">Монах</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l2.gif' width=31 height=15 alt=''>&nbsp;<a href="1215.htm" target="xFrame">Форестволкер</a></p>
+							</span>
+							<p style="margin: 0"><IMG src='Images/l3a1.gif' width=28 height=15 alt='' onClick="show('x1220')">&nbsp;<a href="1220.htm" target="xFrame">Маг</a></p>
+							<span id="x1220" style="display: none">
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="PHB/Files/wizind.htm" target="xFrame">Волшебник</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1222.htm" target="xFrame">Колдун</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1223.htm" target="xFrame">Заклинатель Воды</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1224.htm" target="xFrame">Заклинатель Воздуха</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l2.gif' width=31 height=15 alt=''>&nbsp;<a href="1225.htm" target="xFrame">Заклинатель Огня</a></p>
+							</span>
+							<p style="margin: 0"><IMG src='Images/l3a1.gif' width=28 height=15 alt='' onClick="show('x1230')">&nbsp;<a href="1230.htm" target="xFrame">Жрец</a></p>
+							<span id="x1230" style="display: none">
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1231.htm" target="xFrame">Друид. Жрец Дану</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1232.htm" target="xFrame">Друид. Жрец Ив</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1233.htm" target="xFrame">Клирик. Жрец Спасителя</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1234.html" target="xFrame">Некромант. Жрец Транг'Оула</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1235.htm" target="xFrame">Тан. Жрец Тора</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1236.htm" target="xFrame">Жрец Онгирга</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1237.htm" target="xFrame">Жрец Хорса</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l1.gif' width=31 height=15 alt=''>&nbsp;<a href="1238.htm" target="xFrame">Runefighter</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l2.gif' width=31 height=15 alt=''>&nbsp;<a href="1239.htm" target="xFrame">Шаман</a></p>
+							</span>
+							<p style="margin: 0"><IMG src='Images/l3a2.gif' width=28 height=15 alt='' onClick="show('x1240')">&nbsp;<a href="1240.htm" target="xFrame">Мошенник</a></p>
+							<span id="x1240" style="display: none">
+								<p style="margin: 0"><IMG src='Images/l4l3.gif' width=31 height=15 alt=''>&nbsp;<a href="1241.htm" target="xFrame">Ассасин</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l3.gif' width=31 height=15 alt=''>&nbsp;<a href="1242.htm" target="xFrame">Вор</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l3.gif' width=31 height=15 alt=''>&nbsp;<a href="1243.htm" target="xFrame">Воин ночи</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l3.gif' width=31 height=15 alt=''>&nbsp;<a href="1244.htm" target="xFrame">Менестрель</a></p>
+								<p style="margin: 0"><IMG src='Images/l4l4.gif' width=31 height=15 alt=''>&nbsp;<a href="1245.htm" target="xFrame">Разбойник</a></p>
+							</span>
+						</span>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="1300.htm" target="xFrame">Навыки и профессии</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="1400.htm" target="xFrame">Расчет боевой ситуации</a></p>
+					</span>
+				</span>
+				<span><p style="margin: 0"><IMG src='Images/l1a2.gif' width=16 height=15 alt='' onClick="show('x2000')">&nbsp;Мир Иммитертвелль</p>
+					<span id="x2000" style="display: none">
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2100.htm" target="xFrame">Карта мира</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2200.htm" target="xFrame">Описание локаций</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2300.htm" target="xFrame">Расы и народы</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2400.htm" target="xFrame">Религии и боги</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2500.htm" target="xFrame">Существа</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="PHB/Files/chapter6.htm#t44" target="xFrame">Снаряжение</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l1.gif' width=23 height=15 alt=''>&nbsp;<a href="2700.htm" target="xFrame">Алхимические снадобья</a></p>
+						<p style="margin: 0"><IMG src='Images/l1l2.gif' width=23 height=15 alt=''>&nbsp;<a href="2800.htm" target="xFrame">Растения</a></p>
+					</span>
+				</span>
+				<div class="a_line">&nbsp;Уголёк менестреля</div>
+				<a href="3000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;Стихи и песни</div></a>
+				<a href="4000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;Способы отдаться</div></a>
+				<a href="5000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;Проза</div></a>
+				<div class="a_line">&nbsp;О проекте</div>
+				<a href="6000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;История изменений</div></a>
+				<a href="7000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;Миссия</div></a>
+				<a href="8000.html" target="xFrame"><div class="a_menu_vertical_button_out" OnMouseOver="className='a_menu_vertical_button_over'" OnMouseOut="className='a_menu_vertical_button_out'">&nbsp;Участники</div></a>
+			</td>
+			<td rowspan="3" valign="top">
+				<iframe class="a_frame" name="xFrame" src="1400.htm" frameborder=0 marginwidth=0 marginheight=0 scrolling="no"></iframe>
+			</td>
+		</tr>
+		<tr>
+			<td class="a_image">
+				<script language="JavaScript" type="text/JavaScript">RandomGraphics();</script>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" valign="top">
+				<br>
+				<a href='http://www.hobby.ru'><img src='http://www.hobby.ru/img/hobby-14.gif'></a>
+				&nbsp;
+				<a href='http://www.hobby.ru'><img src='http://www.hobby.ru/img/hobby-14.gif'></a>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<p class='p_space'><font size="-1">Спонсирование и хостинг проекта осуществляет компания "<a href="http://hosting.zenon.net">Зенон Н.С.П.</a>".<br></font></p>
+</Center>
+</BODY>
+</HTML>
